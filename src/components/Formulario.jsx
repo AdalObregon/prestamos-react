@@ -50,7 +50,7 @@ const Formulario = (props) => {
             </label>
             <input
               type='number'
-              className='mb-4 rounded-lg h-8 md:w-1/4 px-5 outline-none appearance-none'
+              className='mb-4 rounded-lg h-8 lg:w-1/4 px-5 outline-none appearance-none'
               placeholder='$ 3,000'
               onChange={(e) => setCantidad(parseInt(e.target.value))}
             />
@@ -60,7 +60,7 @@ const Formulario = (props) => {
               Plazos para Pagar
             </label>
             <select
-              className='rounded-lg h-8 md:w-1/4'
+              className='rounded-lg h-8 lg:w-1/4 w-2/4'
               onChange={(e) => setPlazo(parseInt(e.target.value))}
             >
               <option value=''>--Selecciona--</option>
@@ -72,7 +72,7 @@ const Formulario = (props) => {
             </select>
           </div>
           <div className='my-4'>
-            <button className='bg-blue-300 px-5 md:w-1/4 h-10 rounded-lg md:text-2xl uppercase font-bold text-gray-700 text-xl w-2/4'>
+            <button className='bg-blue-300 px-5 lg:w-1/4 h-10 rounded-lg md:text-2xl uppercase font-bold text-gray-700 text-xl w-2/4'>
               Cotizar
             </button>
           </div>
